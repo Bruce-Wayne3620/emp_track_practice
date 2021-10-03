@@ -9,10 +9,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Employee Tracker',
-      theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.blueGrey.shade900,
-          scaffoldBackgroundColor: Color(0xFFFFFFFF),
-          accentColor: Colors.white),
       home: Home(),
     );
   }
