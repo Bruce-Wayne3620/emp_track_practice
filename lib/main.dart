@@ -6,10 +6,9 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
+  Widget build(BuildContext context) =>
+    MaterialApp(
       title: 'Employee Tracker',
       home: Home(),
     );
-  }
 }
