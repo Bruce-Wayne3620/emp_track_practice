@@ -39,6 +39,10 @@ class _HomeState extends State<Home> {
             icon: Icon(Icons.location),
             title: Text('Location'),
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.cookies),
+            title: Text('Cookies'),
+          ),
         ],
         onTap: (index) => setState(() => _currentIndex = index),
       ),
